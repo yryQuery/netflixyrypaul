@@ -1,0 +1,111 @@
+header {
+    background-color: #301885; /* Culoarea de fundal a Netflix */
+    padding: 10px;
+    /* text-align: left; */
+    color: #fff; /* Culoarea textului */
+    font-size: 24px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; Spațierea uniformă între elementele din header */
+    
+}
+
+/* Stilizare pentru logo și nume */
+.header-info {
+    display: flex;
+    align-items: center; /* Aliniați logo și nume pe același rând */
+    /* margin-bottom: 20px; */
+    justify-content: space-between; /* Aliniem elementele în stânga și în dreapta */
+}
+
+/* Stilizare pentru logo */
+#logo {
+    font-family: 'Byqueruy', sans-serif; /* Fontul personalizat */
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* Stilizare pentru textul "Paul" */
+#name {
+    font-size: 36px;
+    font-weight: bold;
+    align-items: left;
+}
+
+
+ .movie-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    height: 780px;
+    background-color: antiquewhite;
+    display: inline-block;
+    overflow: hidden;
+}
+/* Stilizare pentru butoane */P
+.butoane {
+    background-color: #8f3131;
+    color: #fff;
+    border-radius: 5px;
+    padding: 100px 200px;
+    margin: 200px;
+    border:  1px solid #ddd;
+    cursor: pointer;
+    float: right;
+    
+}
+.butoane a {
+    text-decoration: none; /* Eliminăm sublinierea link-urilor */
+    color: white; /* Culoarea link-urilor */
+  }
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Stil pentru rândurile de filme */
+.movie-row {
+    display: flex;
+    justify-content: center; /* Aliniere în centru */
+  }
+  
+  /* Stil pentru containerul principal */
+  #movie-details {
+    text-align: center; /* Aliniere text în centru */
+    
+  }
+
+  /* Stilizare pentru rating */
+.movie-card rating {
+    margin-top: auto; /* Aliniați ratingul în partea de jos */
+    font-weight: bold;
+  }
+   /* Style the navigation bar */
+   .navbar {
+    overflow: hidden;
+    background-color: #7e47bd; /* Background color */
+}
+
+/* Navigation bar links */
+.navbar a {
+    float: left; /* Make the links float left to create a horizontal menu */
+    display: block;
+    color: rgb(164, 196, 226);
+    text-align: center;
+    padding: 14px 16px; /* Padding around the links */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+/* Change the color of links when you hover over them */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.CONTACTE {
+    float: right;
+}
+
